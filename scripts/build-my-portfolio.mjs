@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import sharp from "sharp";
 
-const SOURCE_DIR = "C:\\Users\\17091\\Desktop\\照片墙";
+const SOURCE_DIR = "C:\\Users\\17091\\Desktop\\新建文件夹";
 const OUTPUT_DIR = "./public/artworks";
 const MANIFEST_PATH = "./src/artworks/manifest.json";
 const LONGEST_EDGE = 1600;
