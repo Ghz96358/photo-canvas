@@ -35,7 +35,7 @@ export const getTexture = (item: MediaItem, onLoad?: (texture: THREE.Texture) =>
       tex.minFilter = THREE.LinearMipmapLinearFilter;
       tex.magFilter = THREE.LinearFilter;
       tex.generateMipmaps = true;
-      tex.anisotropy = 4;
+      tex.anisotropy = 8;
       tex.colorSpace = THREE.SRGBColorSpace;
       tex.needsUpdate = true;
 
